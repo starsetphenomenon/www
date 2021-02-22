@@ -1,0 +1,28 @@
+@import "../fonts/fonts.css";
+@import "mixables/_mixins.scss";
+@import "mixables/_variables.scss";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "_media";
+
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
