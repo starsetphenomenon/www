@@ -5,8 +5,10 @@
 @import "blocks/promo";
 @import "blocks/buttons";
 @import "blocks/advantages";
-@import "_media";
+@import "blocks/consultation";
+@import "blocks/forms";
 
+@import "_media";
 
 ul[class],
 ol[class] {
