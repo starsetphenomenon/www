@@ -1,0 +1,57 @@
+.feedback {
+    padding-bottom: 50px;
+    &__title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+
+    &__name {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+
+    &__marathon {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+
+    &__comment {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+
+    &__img__wrapper {
+        width: 169px;
+        height: 169px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            border-radius: 50%;
+        }
+    }
+
+    &__img__desc {
+        width: 685px;
+    }
+
+    &__item {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
