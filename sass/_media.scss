@@ -52,11 +52,13 @@
             margin-top: 20px;
         }
     }
-    .feedback{
-        &__item{
+
+    .feedback {
+        &__item {
             justify-content: space-around;
         }
-        &__img__desc{
+
+        &__img__desc {
             width: 550px;
         }
     }
@@ -197,26 +199,51 @@
         width: 155px;
         font-size: 15px;
     }
-    .catalog__tabs{
+
+    .catalog__tabs {
         margin-top: 30px;
     }
 
     .catalog__content {
         justify-content: center;
     }
-    .feedback{
-        &__title{
+
+    .feedback {
+        &__title {
             font-size: 24px;
         }
-        &__item{
+
+        &__item {
             justify-content: space-around;
         }
-        &__img__wrapper{
+
+        &__img__wrapper {
             width: 130px;
             height: 130px;
         }
-        &__img__desc{
+
+        &__img__desc {
             width: 380px;
+        }
+    }
+    .footer{
+        height: 500px;
+        iframe{
+            height: 100%;
+        }
+        &__info{
+            padding: 30px 30px 30px 30px;
+            height: 210px;
+            width: 350px;
+        }
+        &__address{
+            margin-bottom: 20px;
+        }
+        &__phone{
+            margin-bottom: 20px;
+        }
+        &__social-item{
+            margin: 0 15px;
         }
     }
 
@@ -363,6 +390,7 @@
             }
         }
     }
+
     .carousel {
         padding-bottom: 50px;
 
@@ -374,22 +402,28 @@
             }
         }
     }
-    .catalog{
+
+    .catalog {
         padding-bottom: 40px;
-        &__content{
+
+        &__content {
             margin-top: 15px;
         }
-        &-item{
+
+        &-item {
             width: 290px;
         }
-        h2{
+
+        h2 {
             text-align: center;
             font-size: 18px;
         }
-        &__tabs{
+
+        &__tabs {
             margin-top: 5px;
             flex-direction: column;
         }
+
         &__tab {
             margin-top: 5px;
             width: 105px;
@@ -397,23 +431,46 @@
         }
 
     }
-    .feedback{
-        &__title{
+
+    .feedback {
+        &__title {
             font-size: 18px;
         }
-        &__item{
+
+        &__item {
             margin-top: 20px;
             flex-direction: column-reverse;
             justify-content: flex-start;
             align-items: center;
         }
-        &__img__desc{
+
+        &__img__desc {
             margin-top: 10px;
             width: 300px;
         }
-        &__name{
+
+        &__name {
             font-size: 16px;
+            text-align: center;
+        }
+        &__marathon{
+            text-align: center;
+        }
+        &__comment{
+            margin-left: 10px;
         }
     }
-    
+    .footer{
+        &__info{
+            padding: 15px 15px;
+            height: 180px;
+            width: 320px;
+        }
+        &__address{
+            font-size: 16px;
+        }
+        &__phone{
+            font-size: 18px;
+        }
+    }
 }
